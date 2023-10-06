@@ -1,0 +1,52 @@
+@media (min-width: 770px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        /* background-color: red; */
+    }
+
+    nav {
+        display: flex;
+        height: 100%;
+        background-color: aqua;
+        justify-content: center;
+        padding: 22px;
+        align-items: center;
+    }
+
+    .logoname {
+        right: 21rem;
+        position: relative;
+        font-size: 2vw;
+        font-weight: 600;
+        font-family: 'Tomorrow', sans-serif;
+
+    }
+
+    nav p {
+        font-size: 1.3vw;
+        padding-right: 17px;
+        font-family: 'Young Serif', serif;
+        
+    }
+
+    nav p img {
+        display: inline-block;
+        height: 39px;
+        width: 40px;
+        
+    }
+
+    nav p img {
+        position: absolute;
+        right: 61px;
+        top: 19px;
+    }
+    .logoname img{
+        display: none;
+    }
+}
