@@ -48,46 +48,7 @@
         background-color: burlywood;
         height: 43vh;
     }
-    .head{
-        top: 25%;
-    height: 23vh;
-    position: relative;
-    background-color: salmon;
-    }
-    .head h1
-    {
-        text-align: center;
-        font-family: 'Tomorrow', sans-serif;
-    }
-    .head h2 {
-        text-align: center;
-    }
-
-    .head h2 a
-    {
-        font-size: 20px;
-        background-color: #826047;
-        padding: 10px;
-        border-radius: 45px;
-        align-items: center;
-        text-decoration: none;
-        color:
-        white;
-        position: relative;
-        top: 23px;
-        font-family: 'Montserrat', sans-serif;
-    }
-    .img1{
-        width: 54px;
-        height: 91px
-    }
-    .img1 img{
-        margin-top: 14px;
-    left: 19rem;
-    height: 91px;
-    width: 84px;
-    position: relative;
-    }
+   
    
     
 }

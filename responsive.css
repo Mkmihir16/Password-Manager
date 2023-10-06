@@ -49,4 +49,42 @@
     .logoname img{
         display: none;
     }
+    .main
+    {  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 81vh;
+        /* background-color: rgb(212, 13, 46); */
+    }
+    .heading h1{
+        font-family: 'Tomorrow', sans-serif;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 5rem;
+        font-size: 9vh;
+    }
+     .heading h1 span img{
+        position: absolute;
+        height: 30vh;
+        width: 15vw;
+        /* z-index:1; */
+        top: 92px;
+    }
+    .img2{
+        position: absolute;
+        left: 12rem;
+        height: 30vh;
+        width: 15vw;
+        z-index: -1;
+    }
+     .btn{
+    font-size: 30px;
+    background-color: #826047;
+    padding: 10px;
+    border-radius: 45px;
+    align-items: center;
+    text-align: center;
+     }
 }
