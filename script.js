@@ -16,6 +16,12 @@ tl.from(".img2",{
     duration:1,
     
     })
+    tl.from(".btn",{
+        opacity:0,
+        rotation:360,
+        scale:0,
+        duration:1
+    })
 
 gsap.from(".scrolldown p",{
     y:-30,

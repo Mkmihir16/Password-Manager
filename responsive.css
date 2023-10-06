@@ -12,7 +12,7 @@
     nav {
         display: flex;
         height: 100%;
-        background-color: aqua;
+        /* background-color: aqua; */
         justify-content: center;
         padding: 22px;
         align-items: center;
