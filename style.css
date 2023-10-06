@@ -40,6 +40,12 @@
     {
         display: none;
     }
+    .logoname img{
+        left: 166px;
+        position: absolute;
+        height: 36px;
+        width: 34px;
+    }
     .main
     {  
         display: flex;

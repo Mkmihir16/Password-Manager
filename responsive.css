@@ -50,7 +50,10 @@
         top: 19px;
     }
     .logoname img{
-        display: none;
+    left: 57px;
+    position: absolute;
+    height: 38px;
+    width: 38px;
     }
     .main
     {  
