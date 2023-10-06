@@ -1,4 +1,3 @@
-
 var tl=gsap.timeline()
 tl.from(".heading h1",{
     

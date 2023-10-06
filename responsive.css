@@ -26,7 +26,10 @@
         font-family: 'Tomorrow', sans-serif;
 
     }
-
+.logoname span img{
+    height: 10px;
+    width: 15px;
+}
     nav p {
         font-size: 1.3vw;
         padding-right: 17px;
