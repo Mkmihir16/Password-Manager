@@ -80,34 +80,13 @@
     border-radius: 45px;
     align-items: center;
     text-align: center;
-    bottom: 16%;
+    bottom: 39%;
     
     font-family: 'Montserrat', sans-serif;
      }
      .btn a{
         text-decoration: none;
         color: black;
-     }
-     .scrolldown
-     {
-        height: 5vh;
-        width: 100%;
-        /* background-color: #826047; */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-     }
-     .scrolldown p
-     {
-    text-align: center;
-    width:150px;
-    color: rgb(0, 0, 0);
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 55px;
-    cursor: pointer;
-    padding: 4px 8px;
-    font-weight: 500;
-    font-family: 'Young Serif', serif;
      }
    .scrolldown
    {
