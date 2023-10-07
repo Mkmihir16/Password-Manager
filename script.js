@@ -37,7 +37,29 @@ gsap.from(".scrolldown p",{
         scrollTrigger:{
             trigger:".box1",
             scroller:"body",
-            markers:true
+            // markers:true
         }    
+        })
+        gsap.from(".left-pos",{
+            x:-30,
+            opacity:0,
+            duration:1.5,
+            scrollTrigger:{
+                trigger:".left-pos",
+                scoller:"body",
+                // markers:true,
+                start:"top 40%"
+            }
+            
+        })
+        gsap.from(".right-pos",{
+            x:30,
+                opacity:0,
+                duration:1.5,
+            scrollTrigger:{
+                trigger:".right-pos",
+                scoller:"body",
+                start:"top 40%"
+            }
         })
 
