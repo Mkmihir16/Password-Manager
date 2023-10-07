@@ -151,5 +151,95 @@
     font-weight: lighter;
     padding: 5px;
 }
-
+.main2
+{
+    height: 60vh;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+}
+.left
+{   height: 100%;
+    width: 40%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right
+{   height: 100%;
+    width: 55%;
+    /* background-color: green; */
+}
+.left img{
+    height: 55vh;
+  width: 75vh;
+}
+.left-pos
+{
+    height: 100%;
+    width: 10%;
+    background-color: aqua;
+    
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.right h2{
+    font-size: 34px;
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.right p{
+    font-size: 25px;
+    text-align: center;
+    line-height: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.left1
+{
+    height: 100%;
+    width: 55%;
+    /* background-color: green; */
+}
+.left1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left1 h2{
+    font-size: 34px;
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.left1 p{
+    font-size: 25px;
+    text-align: center;
+    line-height: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.right1
+{   height: 100%;
+    width: 40%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-left: 62px;
+}
+.right1 img{
+    height: 55vh;
+  width: 75vh;
+}
+.right-pos
+{   
+    height: 100%;
+    width: 10%;
+    background-color: rgb(1, 17, 17);
+}
 }

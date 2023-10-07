@@ -37,9 +37,7 @@ gsap.from(".scrolldown p",{
         scrollTrigger:{
             trigger:".box1",
             scroller:"body",
-            markers:true,
-            start:"top 70%",
-            end:"top 90%"
+            markers:true
         }    
         })
 
