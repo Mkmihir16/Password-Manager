@@ -62,4 +62,15 @@ gsap.from(".scrolldown p",{
                 start:"top 40%"
             }
         })
+        gsap.from(".main2 .right img",
+        {
+        scale:0,
+        duration:1,
+
+        scrollTrigger:{
+            trigger:".main2 .right img",
+            scroller:"body",
+            markers:true
+        }
+        })
 
