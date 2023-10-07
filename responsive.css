@@ -49,6 +49,11 @@
         right: 61px;
         top: 19px;
     }
+    nav a
+    {
+        text-decoration: none;
+        color: black;
+    }
     .logoname img{
     left: 57px;
     position: absolute;
