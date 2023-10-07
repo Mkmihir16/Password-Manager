@@ -44,6 +44,7 @@ gsap.from(".scrolldown p",{
             x:-30,
             opacity:0,
             duration:1.5,
+            stagger:1,
             scrollTrigger:{
                 trigger:".left-pos",
                 scoller:"body",
@@ -62,15 +63,28 @@ gsap.from(".scrolldown p",{
                 start:"top 40%"
             }
         })
-        gsap.from(".main2 .right img",
+        gsap.from(".right1 img",
         {
         scale:0,
         duration:1,
-
+        rotation:360,
         scrollTrigger:{
-            trigger:".main2 .right img",
+            trigger:".right1 img",
             scroller:"body",
             markers:true
         }
         })
-
+        gsap.from(".left img",
+        {
+        scale:0,
+        duration:1,
+        stagger:1,
+        rotation:360,
+        scrollTrigger:{
+            trigger:".left img",
+            scroller:"body",
+            markers:true
+        }
+        })
+        
+          

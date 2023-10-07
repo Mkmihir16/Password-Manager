@@ -86,7 +86,7 @@
     border-radius: 45px;
     align-items: center;
     text-align: center;
-    bottom: 39vh;
+    bottom: 33vh;
     
     font-family: 'Montserrat', sans-serif;
      }
@@ -129,7 +129,7 @@
        padding: 5px;
    }
    .main2
-   {
+   {   padding: 3vh;
        height: 40vh;
        width: 100%;
        /* background-color: blueviolet; */
@@ -154,13 +154,13 @@
        height: 20vh;
      width: 75vh;
    }
-   .left-pos
+   /* .left-pos
    {
        height: 100%;
        width: 50%;
        background-color: aqua;
        
-   }
+   } */
    .right{
        display: flex;
        flex-direction: column;
@@ -215,10 +215,10 @@
        height: 20vh;
        width: 75vh;
    }
-   .right-pos
+   /* .right-pos
    {   
        height: 100%;
        width: 50%;
        background-color: rgb(1, 17, 17);
-   }
+   } */
 }
