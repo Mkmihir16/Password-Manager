@@ -98,6 +98,36 @@
    {
     display: none;
    }
-   
+   .main1
+   {  margin-top: 20px;
+        height: 600px;
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: space-evenly;
+       background-color: #cc2929;
+       gap:20px
+   }
+        .box1
+   {  
+       border-radius: 10px;
+       height: 100px;
+       width: 59%;
+       height: 30vh;
+       border: 2px solid rgb(0, 0, 0);  
+   }
+   .box1 h1{
+       text-align: center;
+       padding: 10px 0px;
+       font-family: 'Tomorrow', sans-serif;
+   }
+   .box1 p{
+       font-size: 21px;
+       text-align: center;
+       font-weight: lighter;
+       padding: 5px;
+   }
+
     
 }

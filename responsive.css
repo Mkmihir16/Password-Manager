@@ -123,4 +123,33 @@
     font-weight: 500;
     font-family: 'Young Serif', serif;
      }
+     .main1
+{  margin-top: 20px;
+     height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #cc2929;
+}
+     .box1
+{  
+    border-radius: 10px;
+    height: 100px;
+    width: 25%;
+    height: 180px;
+    border: 2px solid rgb(0, 0, 0);  
+}
+.box1 h1{
+    text-align: center;
+    padding: 10px 0px;
+    font-family: 'Tomorrow', sans-serif;
+}
+.box1 p{
+    font-size: 19px;
+    text-align: center;
+    font-weight: lighter;
+    padding: 5px;
+}
+
 }
