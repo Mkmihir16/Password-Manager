@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="addpass.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Tomorrow&display=swap" rel="stylesheet">
 </head>
+
 <body>
+    <h1>Add Your Password On PassKeeper</h1>
     <div class="application">
         <form action="/action.php">
             <p>Username :</p>
@@ -14,7 +17,9 @@
             <p>E-mail :</p><input type="email" name="email" id="username">
             <p> Website Name:</p><input type="text" name="webname" id="web-name">
             <p>Password :</p><input type="password" name="password" id="password">
+           
         </form>
+        
         <div class="instruction">
             <h1>Instructions</h1>
             <ul>
@@ -22,9 +27,12 @@
                 <li> Aim for a minimum of 8 characters.</li>
                 <li>Don't use common patterns like "123456," "password," or "qwerty." </li>
                 <li>Use a unique password for each account. Password manager can help you store unique passwords for each site.</li>
-                <li>: Don't use easily discoverable personal information like your name, username, or the name of the website.</li>
+                <li>Don't use easily discoverable personal information like your name, username, or the name of the website.</li>
             </ul>
         </div>
     </div>
+    <button onclick="myfunction()">Submit</button>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="addpass.js"></script>
 </html>

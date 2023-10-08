@@ -71,7 +71,7 @@ gsap.from(".scrolldown p",{
         scrollTrigger:{
             trigger:".right1 img",
             scroller:"body",
-            markers:true
+            // markers:true
         }
         })
         gsap.from(".left img",
@@ -83,7 +83,7 @@ gsap.from(".scrolldown p",{
         scrollTrigger:{
             trigger:".left img",
             scroller:"body",
-            markers:true
+            // markers:true
         }
         })
         
