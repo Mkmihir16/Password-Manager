@@ -5,17 +5,17 @@ tl.from(".heading h1",{
     opacity:0.2,
     stagger:1
 })
-tl.from(".heading h1 span img",{
-x:150,
+tl.from(".heading h1 span img ,.img2",{
+x:250,
 opacity:0,
 duration:0.8
 })
-tl.from(".img2",{
-    x:-150,
-    opacity:0,
-    duration:1,
+// tl.from(".img2",{
+//     x:-150,
+//     opacity:0,
+//     duration:1,
     
-    })
+//     })
     tl.from(".btn",{
         opacity:0,
         rotation:360,
