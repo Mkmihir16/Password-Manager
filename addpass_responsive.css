@@ -1,0 +1,33 @@
+@media (max-width:768px)
+{
+    *
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: rgb(182, 182, 182);
+    }
+    .application
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+    }
+    .instruction
+    {
+        height: auto;
+        width:95vw;
+        
+    }
+}
+h1
+{
+    padding-bottom: 4rem;
+}
+button{
+    
+    align-content: center;
+}
