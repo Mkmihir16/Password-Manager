@@ -253,4 +253,12 @@
     width: 10%;
     background-color: rgb(1, 17, 17);
 }
+.main2a
+{
+    height: 60vh;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+}
 }
