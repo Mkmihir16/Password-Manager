@@ -27,6 +27,8 @@
         font-family: 'Tomorrow', sans-serif; */
         /* height: 4vh;
         width: 38vw; */
+        width: 100%;
+        border-bottom: 1px solid gray;
     }
     
     nav p{
