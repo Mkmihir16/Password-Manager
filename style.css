@@ -59,7 +59,7 @@
         position: absolute;
         height: 36px;
         width: 34px; */
-        height: 4vh;
+        height: 5vh;
         width: 38vw;
     }
     .main
@@ -76,7 +76,8 @@
         text-align: center;
         text-transform: uppercase;
         line-height: 3rem;
-        font-size: 4vh;
+        font-size: 9.28vw;
+        /* font-size: 4vh; */
     }
      .heading h1 span img{
         position: absolute;
