@@ -18,12 +18,14 @@
         text-align: center;
     }
     .logoname{
-        padding-top: 15px;
+        /* padding-top: 15px;
         padding-bottom: 8px;
         font-size: 6vw;
         font-weight: bolder;
         border-bottom: 1px solid gray;
-        font-family: 'Tomorrow', sans-serif;
+        font-family: 'Tomorrow', sans-serif; */
+        height: 4vh;
+        width: 38vw;
     }
     
     nav p{
@@ -49,10 +51,13 @@
         display: none;
     }
     .logoname img{
-        left: 175px;
+        margin: auto;
+        /* left: 175px;
         position: absolute;
         height: 36px;
-        width: 34px;
+        width: 34px; */
+        height: 4vh;
+        width: 38vw;
     }
     .main
     {  

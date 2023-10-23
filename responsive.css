@@ -19,16 +19,12 @@
     }
 
     .logoname {
-        right: 21rem;
-        position: relative;
-        font-size: 2vw;
-        font-weight: 600;
-        font-family: 'Tomorrow', sans-serif;
-
+        position: absolute;
+    left: 4%;
     }
-.logoname span img{
-    height: 10px;
-    width: 15px;
+.logoname img{
+    height: 10vh;
+    width: 16vw;
 }
     nav p {
         font-size: 1.3vw;
@@ -54,12 +50,12 @@
         text-decoration: none;
         color: black;
     }
-    .logoname img{
+    /* .logoname img{
     left: 57px;
     position: absolute;
     height: 38px;
     width: 38px;
-    }
+    } */
     .main
     {  
         display: flex;
