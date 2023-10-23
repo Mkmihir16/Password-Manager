@@ -76,7 +76,7 @@
         text-align: center;
         text-transform: uppercase;
         line-height: 3rem;
-        font-size: 9.28vw;
+        font-size: 8.5vw;
         /* font-size: 4vh; */
     }
      .heading h1 span img{
@@ -227,6 +227,7 @@
        padding-bottom: 2px;
    }
    .left1 p{
+    padding: 0 16px;
        font-size: 19px;
        text-align: justify;
        /* line-height: 35px; */
