@@ -16,7 +16,12 @@ function time()
     }
     ,150)
 }
-
+gsap.from(".loader img",{
+    top:"-150vh",
+    scale:0,
+    repeat:-1,
+    duration:1.5
+})
 
 tl.to(".loader",{
     top:"-100vh",
@@ -27,11 +32,12 @@ tl.to(".loader",{
 tl.to(".loader h1",{
     
     duration:1,
-    delay:2,
+    delay:1,
     onStart:time()
 })
-tl.from(".heading h1",{
-    
+
+gsap.from(".heading h1",{
+    delay:2.2,
     opacity:0.2,
     stagger:1
 })
