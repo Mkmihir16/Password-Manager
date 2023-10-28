@@ -45,12 +45,7 @@ x:250,
 opacity:0,
 duration:0.8
 })
-// tl.from(".img2",{
-//     x:-150,
-//     opacity:0,
-//     duration:1,
-    
-//     })
+
     tl.from(".btn",{
         opacity:0,
         rotation:360,
