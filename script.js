@@ -35,47 +35,6 @@ tl.to(".loader h1",{
     delay:1,
     onStart:time()
 })
-// const animation1=tl.from(".logoname img",{
-//     top: "-50vh",
-//     scale:-1,
-//     duration:2,
-//     rotation:360
-// })
-// const animation2=tl.from(".logoname img",{
-//     x:"30vh",
-//     scale:-1,
-//     duration:2,
-    
-// })
-// const mediaQuery=window.matchMedia("(max-width: 768px)");
-// function handleMediaQueryChange(mediaQuery){
-//     if(mediaQuery.matches){
-//         animation2.restart();
-//     }
-//     else{
-//         animation1.restart();
-//     }
-// }
-let mm = gsap.matchMedia();
-
-mm.add("(min-width: 800px)", (context) => {
- 
-    tl.from(".logoname img", { 
-        y:"-300vw",
-        opacity:0,
-        scale:1,
-        rotation: 360
-     }); // <- now it gets recorded in the Context
-});
-mm.add("(max-width: 768px)", (context) => {
- 
-    tl.from(".logoname img", { 
-        x:"300vh",
-        opacity:0,
-        scale:1,
-        rotation: 360
-     }); // <- now it gets recorded in the Context
-});
 gsap.from(".heading h1",{
     delay:2.2,
     opacity:0.2,

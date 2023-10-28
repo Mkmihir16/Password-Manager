@@ -1,3 +1,4 @@
+ @media (min-width: 770px) {
 *
 {
     margin: 0;
@@ -10,6 +11,17 @@ h1
     text-align: center;
     font-family: 'Tomorrow', sans-serif;
     padding-top: 8px;
+    padding-bottom: 2rem;
+}
+.logo{
+   
+    display: flex;
+    justify-content: center;
+}
+.logo img
+{
+   height:65px;
+   width: 250px;
 }
 .application
 {  
@@ -99,3 +111,4 @@ button:hover
     border: 2px solid rgb(119, 1, 119);
     box-shadow: 5px 7px 24px rgb(119, 1, 119) ;
 }
+ }
