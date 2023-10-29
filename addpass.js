@@ -1,3 +1,10 @@
+gsap.from(".logo",{
+    y:"-10vh",
+    scale:1,
+    opacity:0,
+    delay:0.5,
+    duration:1
+})
 gsap.from("h1",{
     y:-50,
     duration:1,
