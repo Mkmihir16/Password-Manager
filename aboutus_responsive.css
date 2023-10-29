@@ -2,9 +2,16 @@
     nav{
         height: 10vh;
     }
+    .navitems p a{
+        font-size: 1.2rem;
+        margin-right: 1.2rem;
+    }
+    .logo{
+        margin-left: 1rem;
+    }
     .logo img{
-        height: 87px;
-        width:240px
+        height: 8vh;
+        width:49vw;
     }
     .heropart p{
         text-align: justify;
@@ -32,5 +39,9 @@
         flex-direction: column;
         padding-bottom: 1rem;
     }
-
+    .heropart p:last-child{
+        font-weight: 800;
+        padding-top: 2rem;
+        text-align: center;
+    }
 }
