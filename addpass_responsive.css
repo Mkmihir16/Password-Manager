@@ -33,7 +33,7 @@
         /* background-color: aqua; */
         border: 3px solid black;
         border-radius: 8px;
-        width: 100%;
+        width: 98%;
         padding: 20px 0;
         margin: 3rem 0;
     }
@@ -78,11 +78,11 @@
         font-family: monospace;
     }
 
-    button {
+    #button {
         align-content: center;
     }
 
-    button {
+    #button {
         margin-top: 5rem;
         cursor: pointer;
         left: 50vw;
@@ -96,7 +96,7 @@
         display: block;
     }
 
-    button:hover {
+    #button:hover {
         color: white;
         background-color: rgb(94, 0, 94);
         border: 2px solid rgb(119, 1, 119);

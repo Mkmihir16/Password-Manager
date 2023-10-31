@@ -18,7 +18,18 @@ gsap.from("button",{
     delay:0.8,
     rotation:360
 })
-function myfunction()
-{
-    alert("Your data is saved.")
-}
+// function myfunction()
+// {
+//     let x=document.getElementById("password").value;
+//     let text;
+//     if(x<9 || x>1)
+//     {
+//         text="Input submitted";
+//         alert(text);
+//     }
+//     else{
+//         text="Input not correct";
+//         alert(text);
+//     }
+    
+// }
