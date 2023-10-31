@@ -18,18 +18,44 @@ gsap.from("button",{
     delay:0.8,
     rotation:360
 })
-// function myfunction()
-// {
-//     let x=document.getElementById("password").value;
-//     let text;
-//     if(x<9 || x>1)
-//     {
-//         text="Input submitted";
-//         alert(text);
-//     }
-//     else{
-//         text="Input not correct";
-//         alert(text);
-//     }
+var myInput=document.getElementById("password");
+myInput.onkeyup = function() {
+    // Validate lowercase letters
+    var lowerCaseLetters = /[a-z]/g;
+    if(myInput.value.match(lowerCaseLetters)) {  
+      letter.classList.remove("invalid");
+      letter.classList.add("valid");
+    } else {
+      letter.classList.remove("valid");
+      letter.classList.add("invalid");
+    }
     
-// }
+    // Validate capital letters
+    var upperCaseLetters = /[A-Z]/g;
+    if(myInput.value.match(upperCaseLetters)) {  
+      capital.classList.remove("invalid");
+      capital.classList.add("valid");
+    } else {
+      capital.classList.remove("valid");
+      capital.classList.add("invalid");
+    }
+  
+    // Validate numbers
+    var numbers = /[0-9]/g;
+    if(myInput.value.match(numbers)) {  
+      number.classList.remove("invalid");
+      number.classList.add("valid");
+    } else {
+      number.classList.remove("valid");
+      number.classList.add("invalid");
+    }
+    
+    // Validate length
+    if(myInput.value.length >= 8) {
+      length.classList.remove("invalid");
+      length.classList.add("valid");
+    } else {
+      length.classList.remove("valid");
+      length.classList.add("invalid");
+    }
+  }
